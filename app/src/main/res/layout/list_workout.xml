@@ -16,10 +16,12 @@
         android:outlineProvider="paddedBounds"
         android:layout_margin="6dp"
         app:cardCornerRadius="10dp"
-        app:cardElevation="10dp">
+        app:cardElevation="10dp"
+        android:background="@color/trans">
         <RelativeLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent">
+            android:layout_height="match_parent"
+            android:background="@color/cyan">
             <pl.droidsonroids.gif.GifImageView
                 android:id="@+id/gifWorkout"
                 android:layout_width="100dp"

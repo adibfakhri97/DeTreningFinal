@@ -15,7 +15,6 @@ import pl.droidsonroids.gif.GifImageView;
 public class DetailWorkout extends AppCompatActivity {
     TextView judul, deskripsi;
     GifImageView gifGerakan;
-    private AdView mAdView;
 
 
     @Override
@@ -27,9 +26,6 @@ public class DetailWorkout extends AppCompatActivity {
         judul = (TextView) findViewById(R.id.detailJudul);
         deskripsi = (TextView) findViewById(R.id.detailDeskripsi);
         gifGerakan = (GifImageView) findViewById(R.id.detailGif);
-        mAdView = (AdView) findViewById(R.id.adView);
-        AdRequest adRequest = new AdRequest.Builder().build();
-        mAdView.loadAd(adRequest);
 
         Intent i = getIntent();
  //       String url= i.getStringExtra("gambar");
@@ -43,9 +39,6 @@ public class DetailWorkout extends AppCompatActivity {
 
     @Override
     public void onPause() {
-        if (mAdView != null) {
-            mAdView.pause();
-        }
         super.onPause();
     }
 
@@ -53,17 +46,12 @@ public class DetailWorkout extends AppCompatActivity {
     @Override
     public void onResume() {
         super.onResume();
-        if (mAdView != null) {
-            mAdView.resume();
         }
-    }
+
 
     /** Called before the activity is destroyed */
     @Override
     public void onDestroy() {
-        if (mAdView != null) {
-            mAdView.destroy();
-        }
         super.onDestroy();
     }
 }

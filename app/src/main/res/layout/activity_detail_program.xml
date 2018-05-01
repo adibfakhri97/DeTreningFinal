@@ -5,11 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="com.detrening.detrening.DetailProgram"
-    android:background="@drawable/theme">
-    <ImageView
-        android:id="@+id/cbaja"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
+    android:background="@drawable/ah">
 
     <android.support.v7.widget.CardView
         android:id="@+id/crV"
@@ -21,8 +17,7 @@
             android:layout_height="wrap_content"
             android:layout_alignParentStart="true"
             android:layout_alignParentTop="true"
-            android:background="@color/trans"
-            android:backgroundTint="@color/navy">
+            android:background="@color/cyan">
 
             <pl.droidsonroids.gif.GifImageView
                 android:id="@+id/gifProg"
@@ -39,26 +34,34 @@
                 android:text="1/6" />
         </RelativeLayout>
     </android.support.v7.widget.CardView>
-
-    <TextView
-        android:id="@+id/judulProgram"
-        android:layout_width="match_parent"
+    <RelativeLayout
+        android:id="@+id/asss"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Nama Gerakan"
-        android:textColor="@android:color/black"
-        android:textSize="20dp"
-        android:textAlignment="center"
-        android:layout_below="@id/crV" />
+        android:layout_below="@id/crV"
+        android:background="@color/trans">
+        <TextView
+            android:id="@+id/judulProgram"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nama Gerakan"
+            android:textColor="@android:color/black"
+            android:textSize="20dp"
+            android:textAlignment="center" />
+    </RelativeLayout>
+
+
 
     <ScrollView
         android:id="@+id/linProg"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@id/judulProgram"
+        android:layout_below="@id/asss"
         android:gravity="center"
         android:padding="3dp"
         android:layout_margin="3dp"
-        android:layout_above="@id/jumlahGerakan">
+        android:layout_above="@id/aaaa"
+        android:background="@color/trans">
 
         <TextView
             android:id="@+id/deskripsiProgram"
@@ -66,21 +69,29 @@
             android:layout_height="wrap_content"
             android:text="Mulai dengan tangan..."
             android:padding="10dp"
-            android:textColor="@android:color/white"
+            android:textColor="@android:color/black"
             android:textSize="16dp"/>
 
     </ScrollView>
-    <TextView
-        android:id="@+id/jumlahGerakan"
+    <RelativeLayout
+        android:id="@+id/aaaa"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Jumlah Gerakan"
         android:layout_above="@id/skipProg"
-        android:textColor="@android:color/white"
-        android:textSize="20dp"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="5dp"
-        android:textStyle="italic"/>
+        android:background="@color/trans">
+        <TextView
+            android:id="@+id/jumlahGerakan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Jumlah Gerakan"
+            android:textColor="@android:color/black"
+            android:textSize="20dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="5dp"
+            android:textStyle="italic"/>
+    </RelativeLayout>
+
 
     <Button
         android:id="@+id/skipProg"

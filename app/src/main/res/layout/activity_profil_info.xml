@@ -20,8 +20,8 @@
             android:layout_height="218dp"
             android:layout_alignParentStart="true"
             android:layout_alignParentTop="true"
-            android:background="@color/trans"
-            android:backgroundTint="@color/navy"
+            android:background="@color/cyan"
+            android:backgroundTint="@color/cyan"
             android:padding="5dp"
             >
 
@@ -53,9 +53,9 @@
                 android:layout_alignParentEnd="true"
                 android:layout_alignParentTop="true"
                 android:text="Edit Profile"
-                android:textColor="@android:color/white"
+                android:textColor="@android:color/black"
                 android:background="@drawable/buttonshape"
-                android:backgroundTint="@color/cyan"/>
+                android:backgroundTint="@android:color/white"/>
 
 
         </RelativeLayout>
@@ -107,8 +107,8 @@
                     android:layout_marginStart="84dp"
                     android:layout_toEndOf="@+id/txtY"
                     android:padding="10dp"
-                    android:background="@color/trans"
-                    android:backgroundTint="@color/purple2"
+                    android:background="@color/cyan"
+                    android:backgroundTint="@color/cyan"
 
                     >
 
@@ -162,8 +162,8 @@
                     android:layout_marginStart="84dp"
                     android:layout_toEndOf="@+id/txtX"
                     android:padding="10dp"
-                    android:background="@color/trans"
-                    android:backgroundTint="@color/purple2">
+                    android:background="@color/cyan"
+                    android:backgroundTint="@color/cyan">
 
                     <TextView
                         android:id="@+id/tinggiInfo"
@@ -215,8 +215,8 @@
                     android:layout_marginStart="84dp"
                     android:layout_toEndOf="@+id/txtZ"
                     android:padding="10dp"
-                    android:background="@color/trans"
-                    android:backgroundTint="@color/purple2">
+                    android:background="@color/cyan"
+                    android:backgroundTint="@color/cyan">
 
                     <TextView
                         android:id="@+id/beratInfo"
