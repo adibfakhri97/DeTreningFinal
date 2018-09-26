@@ -16,4 +16,11 @@
     <string name="toggle_label">Stand Up Alarm</string>
     <string name="banner_ad_unit_id" translatable="false">ca-app-pub-3940256099942544/6300978111</string>
 
+    <string name="open_weather_maps_app_id">c8fd3e7089875c5175d3f5bee1691a56</string>
+
+
+
+    <string name="place_not_found">Sorry, no weather data found.</string>
+
+
 </resources>

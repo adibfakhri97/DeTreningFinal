@@ -3,7 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://E:\DeTreningTeam-master\DeTrening.iml" filepath="E:\DeTreningTeam-master\DeTrening.iml" />
-      <module fileurl="file://$PROJECT_DIR$/DeTreningTeam-master.iml" filepath="$PROJECT_DIR$/DeTreningTeam-master.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DeTreningFinal.iml" filepath="$PROJECT_DIR$/DeTreningFinal.iml" />
+      <module fileurl="file://C:\Users\zulfikaranshari\AndroidStudioProjects\DeTreningFinal\DeTreningTeam-master.iml" filepath="C:\Users\zulfikaranshari\AndroidStudioProjects\DeTreningFinal\DeTreningTeam-master.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>
